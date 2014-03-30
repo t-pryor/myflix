@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+Video.create(:title => 'Monk',
+             :description => 'Adrian Monk is a brilliant San Francisco detective...',
+             :small_cover_url => 'tmp/monk.jpg',
+           :large_cover_url => 'tmp/monk_large')
+

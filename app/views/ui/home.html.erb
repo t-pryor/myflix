@@ -1,0 +1,14 @@
+<article class="video_category">
+  <header>
+    <h3><%= link_to("TV Comedies") %></h3>
+  <div class="videos row">
+    <% 6.times do %>
+      <div class="video col-sm-2">
+        <%= link_to("", nil) do %>
+        <img src="/tmp/<%=['futurama', 'south_park', 'family_guy'].sample%>.jpg">
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+  </header>
+</article>
