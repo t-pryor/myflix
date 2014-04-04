@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e52b86ab-3870-4bb8-9a1a-0d3586247438" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/videos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/videos_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/videos/show.html.haml" afterPath="$PROJECT_DIR$/app/views/videos/show.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myflix.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1396493670477" ignored="false" />
+    <file path="/Dummy.txt" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1396624421928" ignored="false" />
     <file path="/index.html.haml" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1396147581284" ignored="false" />
     <file path="/event_machine.rb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1395634300558" ignored="false" />
     <file path="$PROJECT_DIR$/../medux-2014/config/initializers/event_machine.rb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1395634124456" ignored="false" />
     <file path="/20140325022343_create_videos.rb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1395714875231" ignored="false" />
-    <file path="/seeds.rb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1396541671237" ignored="false" />
+    <file path="/seeds.rb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1396542811737" ignored="false" />
     <file path="/xhome.html.haml" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1395779072767" ignored="false" />
     <file path="/xhome.html.erb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1395796549528" ignored="false" />
     <file path="/videos_controller.rb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1396297505184" ignored="false" />
@@ -22,6 +23,9 @@
     <file path="/x_index.html.erb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1395972396401" ignored="false" />
     <file path="/index.html.erb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1395974472482" ignored="false" />
     <file path="/show.html.haml" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1396541094951" ignored="false" />
+    <file path="/20140403162217_add_category_to_videos.rb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1396542270266" ignored="false" />
+    <file path="/20140404152109_create_categories.rb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1396624996121" ignored="false" />
+    <file path="/20140404154212_change_video_category_column_to_integer.rb" changelist="e52b86ab-3870-4bb8-9a1a-0d3586247438" time="1396626338518" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +44,49 @@
     <favorites_list name="myflix" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48811096">
+    <splitter split-orientation="horizontal" split-proportion="0.56512606">
       <split-first>
         <leaf>
-          <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/videos/show.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="80" selection-start="516" selection-end="516" vertical-scroll-proportion="0.6164383">
+                <state line="23" column="73" selection-start="574" selection-end="574" vertical-scroll-proportion="-15.333333">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="category.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/category.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="20140404152109_create_categories.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/db/migrate/20140404152109_create_categories.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="6" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="20140325022343_create_videos.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/db/migrate/20140325022343_create_videos.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="20140404154212_change_video_category_column_to_integer.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/db/migrate/20140404154212_change_video_category_column_to_integer.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="50" selection-start="186" selection-end="186" vertical-scroll-proportion="0.08071749">
                   <folding />
                 </state>
               </provider>
@@ -92,10 +132,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/db/seeds.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="27" selection-start="898" selection-end="898" vertical-scroll-proportion="0.49918166">
+                <state line="19" column="9" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -104,11 +144,17 @@
           <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/videos/index.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="-6.0">
-                  <folding>
-                    <marker date="1396541229896" expanded="true" signature="147:232" placeholder="= link_to(video_path(video), nil) do" />
-                    <marker date="1396541229896" expanded="true" signature="196:232" placeholder="%img(src=&quot;#{video.small_cover_url}&quot;)" />
-                  </folding>
+                <state line="9" column="33" selection-start="234" selection-end="234" vertical-scroll-proportion="-6.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="20140403162217_add_category_to_videos.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/db/migrate/20140403162217_add_category_to_videos.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="14" selection-start="118" selection-end="118" vertical-scroll-proportion="0.10089686">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -133,8 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/initializers/event_machine.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/ui/index.html.haml" />
         <option value="$PROJECT_DIR$/db/migrate/20140325022343_create_videos.rb" />
@@ -145,9 +189,12 @@
         <option value="$PROJECT_DIR$/app/views/videos/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ui/xhome.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/videos_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/videos/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/videos/index.html.haml" />
+        <option value="$PROJECT_DIR$/db/migrate/20140403162217_add_category_to_videos.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/views/videos/show.html.haml" />
+        <option value="$PROJECT_DIR$/db/migrate/20140404152109_create_categories.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140404154212_change_video_category_column_to_integer.rb" />
       </list>
     </option>
   </component>
@@ -190,7 +237,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,6 +357,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -318,8 +365,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dynamic.classpath" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -572,11 +619,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: myflix" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: myflix" />
-      <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: myflix" />
+      <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: myflix" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Production: myflix" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Development: myflix" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -601,11 +648,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19551282" sideWeight="0.709012" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19764957" sideWeight="0.9815217" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29098806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.018478261" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -678,26 +725,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/videos.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="53" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" />
@@ -706,11 +733,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/video.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="50" selection-start="37" selection-end="37" vertical-scroll-proportion="0.057877813" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140325022343_create_videos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.24215247" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/tmp/futurama.jpg">
@@ -753,26 +775,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/videos/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="-6.0">
-          <folding>
-            <marker date="1396541229896" expanded="true" signature="147:232" placeholder="= link_to(video_path(video), nil) do" />
-            <marker date="1396541229896" expanded="true" signature="196:232" placeholder="%img(src=&quot;#{video.small_cover_url}&quot;)" />
-          </folding>
+        <state line="9" column="33" selection-start="234" selection-end="234" vertical-scroll-proportion="-6.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/category.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140325022343_create_videos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/videos/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="80" selection-start="516" selection-end="516" vertical-scroll-proportion="0.6164383">
+        <state line="23" column="73" selection-start="574" selection-end="574" vertical-scroll-proportion="-15.333333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140403162217_add_category_to_videos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="27" selection-start="898" selection-end="898" vertical-scroll-proportion="0.49918166">
+        <state line="5" column="14" selection-start="118" selection-end="118" vertical-scroll-proportion="0.10089686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140404152109_create_categories.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140404154212_change_video_category_column_to_integer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="50" selection-start="186" selection-end="186" vertical-scroll-proportion="0.08071749">
           <folding />
         </state>
       </provider>
